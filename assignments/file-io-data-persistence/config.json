@@ -1,0 +1,25 @@
+{
+  "application": {
+    "name": "Student Portal",
+    "version": "1.0.0",
+    "settings": {
+      "theme": "light",
+      "language": "en",
+      "notifications": true
+    },
+    "users": [
+      {
+        "id": 1,
+        "username": "alice_student",
+        "email": "alice@school.edu",
+        "active": true
+      },
+      {
+        "id": 2,
+        "username": "bob_student",
+        "email": "bob@school.edu",
+        "active": true
+      }
+    ]
+  }
+}

@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "file-io-data-persistence",
+      "title": "File I/O & Data Persistence",
+      "description": "Master reading and writing different file formats including text, CSV, and JSON. Learn to persist data and handle structured data for real-world applications.",
+      "path": "assignments/file-io-data-persistence",
+      "dueDate": "2026-06-04",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Data",
+          "file": "students.csv",
+          "type": "csv"
+        },
+        {
+          "name": "Sample Config",
+          "file": "config.json",
+          "type": "json"
+        }
+      ]
     }
   ]
 }
