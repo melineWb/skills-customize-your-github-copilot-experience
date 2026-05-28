@@ -1,19 +1,49 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic Hangman word-guessing game using Python strings, loops, conditionals, and user input to practice string manipulation and game logic.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup and Word Selection
 
-## ✅ Must Have's
+#### Description
+Create a function that randomly selects a word from a predefined list and initializes the game state for the player.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list of words to choose from for the game
+- Randomly select a word from the list at the start of each game
+- Initialize tracking variables for guessed letters and attempts remaining
+- Display the initial game state with underscores for each letter in the word
+
+### 🛠️ Letter Guessing and Progress Tracking
+
+#### Description
+Implement the core gameplay loop where players guess letters and see their progress revealed.
+
+#### Requirements
+Completed program should:
+
+- Accept letter guesses from the user via input
+- Check if the guessed letter is in the word
+- Update and display the current progress (e.g., `h_ll_`for word "hello" after guessing 'h', 'l')
+- Track incorrect guesses and decrement the remaining attempts
+- Prevent the player from guessing the same letter twice
+
+### 🛠️ Game End Conditions and Messages
+
+#### Description
+Add logic to end the game when the player wins or loses, and display appropriate messages.
+
+#### Requirements
+Completed program should:
+
+- End the game when the player guesses the complete word (win condition)
+- End the game when attempts reach zero (lose condition)
+- Display a win message showing the word and number of attempts remaining
+- Display a lose message revealing the correct word
+- Offer the player the option to play again
